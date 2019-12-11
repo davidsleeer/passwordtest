@@ -38,32 +38,34 @@ namespace Tests {
         [TestCase(11)]
         public void PasswordGenThreeTest(int length) {
             var res = generator.PasswordGenThree(length);
-            int a=0;
-            int b=0;
-            int c=0;
-            int d=0;
-            foreach(var item in res)
+            int upcount = 0;
+            int lowcount = 0;
+            int digicount = 0;
+            int specialcount = 0;
+            foreach (var item in res)
             {
                 if (char.IsUpper(item))
                 {
-                    a++;
-                }else if (char.IsLower(item))
+                    upcount++;
+                }
+                else if (char.IsLower(item))
                 {
-                    b++;
-                }else if (char.IsDigit(item))
+                    lowcount++;
+                }
+                else if (char.IsDigit(item))
                 {
-                    c++;
+                    digicount++;
                 }
                 else
                 {
-                    d++;
+                    specialcount++;
                 }
             }
-            if (a<2 || b<2 || c<2 || d < 2)
-            {
-                Assert.Fail();
-            }
-            
+            Assert.Greater(upcount, 1);
+            Assert.Greater(lowcount, 1);
+            Assert.Greater(digicount, 1);
+            Assert.Greater(specialcount, 1);
+
         }
     }
 }

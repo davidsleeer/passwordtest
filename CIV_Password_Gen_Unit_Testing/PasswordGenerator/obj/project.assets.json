@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sabrina\\source\\repos\\CIV_Password_Gen_Unit_Testing\\PasswordGenerator\\PasswordGenerator.csproj",
+      "projectUniqueName": "C:\\Users\\Sabrina\\Source\\Repos\\passwordtest\\CIV_Password_Gen_Unit_Testing\\PasswordGenerator\\PasswordGenerator.csproj",
       "projectName": "PasswordGenerator",
-      "projectPath": "C:\\Users\\Sabrina\\source\\repos\\CIV_Password_Gen_Unit_Testing\\PasswordGenerator\\PasswordGenerator.csproj",
+      "projectPath": "C:\\Users\\Sabrina\\Source\\Repos\\passwordtest\\CIV_Password_Gen_Unit_Testing\\PasswordGenerator\\PasswordGenerator.csproj",
       "packagesPath": "C:\\Users\\Sabrina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sabrina\\source\\repos\\CIV_Password_Gen_Unit_Testing\\PasswordGenerator\\obj\\",
+      "outputPath": "C:\\Users\\Sabrina\\Source\\Repos\\passwordtest\\CIV_Password_Gen_Unit_Testing\\PasswordGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
